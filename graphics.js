@@ -28,7 +28,7 @@ var renderer = PIXI.autoDetectRenderer(200, 200, { antialias: true });
 // draw a rounded rectangle
     graphics.lineStyle(2, 0xFF00FF, 1);
     graphics.beginFill(0xFF00BB, 0.25);
-    graphics.drawRoundedRect(150, 450, 300, 100, 15);
+    graphics.drawRoundedRect(0, 0, 300, 100, 15);
     graphics.endFill();
 
 // draw a circle, set the lineStyle to zero so the circle doesn't have an outline
